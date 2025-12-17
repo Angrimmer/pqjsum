@@ -1,0 +1,129 @@
+body {
+    background-color: #000000;
+}
+
+h3, p, ul, ol, a, h4, h1, label {
+    color: #f0f0f0;
+}
+
+h1, h3, h4 {
+    font-family: Verdana, sans-serif;
+}
+
+p, ul, ol, a, label {
+    font-family: Arial, sans-serif;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+h4 {
+  font-size: 2em;  
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+ul {
+    font-size: 1.3em;
+}
+
+.contact__hero {
+    display: flex;
+    justify-content: center;
+}
+
+.hero__bg {
+    position: relative;
+    width: 95vw;
+    height: 50vw;
+}
+
+.contact__nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__buttons {
+    border-radius: 20px;
+    font-size: 1.5em;
+    background-color: blueviolet;
+    padding: 10px;
+}
+
+.nav__buttons:hover {
+    background-color: violet;
+}
+
+.contact__contact {
+    text-align: center;
+}
+
+.contact-flèche__align {
+    display: flex;
+    justify-content: center;
+}
+
+.contact__flèche {
+    width: 30vw;
+    position: relative;
+}
+
+.contact__aera {
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+}
+
+.contact__title1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__title2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__button {
+    border-radius: 20px;
+    padding: 5px;
+    margin-left: 45px;
+    background-color: darkgray;
+}
+
+form__button:hover {
+    background-color: dimgray;
+}
+
+.contact__leg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.contact__last-img {
+    width: 30vw;
+    position: relative;
+}
+
+.footer__aera {
+    display: flex;
+    justify-content: space-around;
+    background-color: grey;
+}
+
+.footer__link {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footer__data {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
